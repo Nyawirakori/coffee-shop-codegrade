@@ -1,3 +1,5 @@
+from order import Order
+
 class Customer:
     def __init__(self, name):
         self.name = name
@@ -14,6 +16,18 @@ class Customer:
             self._name = name
         else:
             raise ValueError("Name must be string between 1 and 15 characters.")
-
-           
+        
+    def create_order(self,coffee,price):
+        return Order(self, coffee, price)
+    
+    @classmethod
+    def most_aficionado(cls, coffee):
+        customer_spending = {}
+        for order in Order.all_orders:
+            if order.coffee == coffee:
+                customer_spending[order.customer] = (
+                customer_spending.get(order.customer, 0) + order.price)
+        if customer_spending:
+            return max(customer_spending, key=customer_spending.get)
+        return None
 

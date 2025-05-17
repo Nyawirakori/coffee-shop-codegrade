@@ -14,6 +14,18 @@ class Coffee:
             raise ValueError("Name must be string between 1 and 15 characters.")
         self._name = name
 
+    def orders(self):
+        pass
+
+    def customers(self):
+        pass
+
+    def num_orders(self):
+        pass
+
+    def average_price(self):
+        pass
+
 
            
 
