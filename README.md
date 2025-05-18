@@ -12,10 +12,10 @@
 
 ## How to install this project
 1. Fork and clone the github repo
-2. Create and acivate the virtual environment
-  pipenv install
-  pipenv shell
-  pipenv install pytest
+2. Create and acivate the virtual environment:
+  - pipenv install
+  - pipenv shell
+  - pipenv install pytest
 3. Run python lib/debug.py for testing
 
-Author:Joan Kori- Coffee shop Domain Modelling Project - @2025
+Author: Joan Kori- Coffee shop Domain Modelling Project - @2025
