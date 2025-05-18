@@ -3,12 +3,12 @@
 ## This is python project that is about the domain of a coffee shop. It manages orders and customers.
 
 ## Project Structure
-Pipfile-contains the dependancies
-lib folder:
-   customer.py - contains the customer class
-   order.py - contains the order class
-   coffee.py - contains the coffee class
-   debug.py - contains the print statements for testing
+1. Pipfile-contains the dependancies
+2 .lib folder:
+   - customer.py - contains the customer class
+   - order.py - contains the order class
+   - coffee.py - contains the coffee class
+   - debug.py - contains the print statements for testing
 
 ## How to install this project
 1. Fork and clone the github repo
