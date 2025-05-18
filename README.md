@@ -4,7 +4,7 @@
 
 ## Project Structure
 1. Pipfile-contains the dependancies
-2 .lib folder:
+2. lib folder:
    - customer.py - contains the customer class
    - order.py - contains the order class
    - coffee.py - contains the coffee class
